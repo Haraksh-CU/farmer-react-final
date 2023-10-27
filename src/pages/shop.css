@@ -1,0 +1,31 @@
+.shop-img-container img {
+    width: 100%;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.shop .card-main>.card-item-main:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.menu-header-txt {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #237262;
+}
+
+.button-disabled:hover {
+    cursor: not-allowed;
+}
+
+.total {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #237262;
+}
